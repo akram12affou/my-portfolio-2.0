@@ -1,25 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @tailwind base;
 @tailwind components;
-@tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@tailwind utilities; 
 
 body, body * {
     font-family: 'Poppins', sans-serif;
     padding: 0;
     margin: 0;
+
+}
+.trans{
+    transition: all .1s ease-in-out;
 }
 
 .logo_dimentions{
-    width: calc(50px + 3vw);
+    width: calc(60px + 2.5vw);
 }
 
 .bg_color{
     background: #242021;
 }
+.main_height{
+    height: calc(100vh - 7rem);
+
+}
 .routes_color{
-   color: #6f7378;
+   color: #808489;
 }
 
-.trans{
-  transition: all 0.2s ease;    
+.footer_bg{
+    background: rgb(25,25,25)
+}
+
+.Inconsolata{
+    font-family: Inconsolata,monospace;
 }
