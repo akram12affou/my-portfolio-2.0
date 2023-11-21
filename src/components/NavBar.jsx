@@ -7,10 +7,10 @@ function NavBar() {
           <img src={akram} className="logo_dimentions" alt="" />
         </div>
         <div className="flex justify-evenly gap-4">
-          <span className="routes_color hover:tracking-wide hover:hover:text-slate-400  cursor-pointer trans sm:text-lg">Home</span>
-          <span className="routes_color hover:tracking-wide hover:hover:text-slate-400  cursor-pointer trans sm:text-lg">About</span>
-          <span className="routes_color hover:tracking-wide hover:hover:text-slate-400  cursor-pointer trans sm:text-lg"> Projects</span>
-          <span className="routes_color hover:tracking-wide hover:hover:text-slate-400  cursor-pointer trans sm:text-lg">Contact</span>
+          <span className="routes_color hover:tracking-wide hover:hover:text-slate-400  cursor-pointer trans sm:text-lg text-sm">Home</span>
+          <span className="routes_color hover:tracking-wide hover:hover:text-slate-400  cursor-pointer trans sm:text-lg text-sm">About</span>
+          <span className="routes_color hover:tracking-wide hover:hover:text-slate-400  cursor-pointer trans sm:text-lg text-sm"> Projects</span>
+          <span className="routes_color hover:tracking-wide hover:hover:text-slate-400  cursor-pointer trans sm:text-lg text-sm">Contact</span>
         </div>
       </div>
     </div>

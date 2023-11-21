@@ -27,7 +27,12 @@ body, body * {
 .routes_color{
    color: #808489;
 }
-
+.home_h2{
+    font-size: calc(1.5rem + 2.9vw);
+}
+.home_h3{
+    font-size:  calc(.3rem + 1.2vw);;
+}
 .footer_bg{
     background: rgb(25,25,25)
 }
