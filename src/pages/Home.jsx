@@ -14,7 +14,7 @@ function Home() {
             HIT ME UP AND LET'S CREATE SOMETHING SPECIAL ✨
         </center>
         </h3>
-        <div className="flex justify-center sm:gap-6 md:gap-8 gap-3">
+        <div className="flex justify-center sm:gap-6 md:gap-8 gap-4">
           <span className="cursor-pointer Inconsolata routes_color hover:scale-105 trans hover:text-slate-400  flex items-center gap-1 span_size">
           <LuGithub className="text-xl text-white  span_size"/> github
           </span>  

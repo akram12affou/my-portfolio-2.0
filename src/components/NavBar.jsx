@@ -1,13 +1,13 @@
-import akram from "../assets/akram-logo.png";
 import { useState } from "react";
+import akram from "../assets/akram-logo.png";
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import Menu from '@mui/material/Menu';
-
+import { useNavigate } from "react-router-dom";
 function NavBar() {
   const [anchorEl, setAnchorEl] = useState(null);
-
+  const navigate = useNavigate()
   const handleChange = (event) => {
     setAuth(event.target.checked);
   };
@@ -28,7 +28,7 @@ function NavBar() {
         <div className="sm:flex justify-evenly gap-4 hidden">
           <span className="routes_color  hover:hover:text-slate-400  cursor-pointer trans sm:text-lg text-sm">Home</span>
           <span className="routes_color  hover:hover:text-slate-400  cursor-pointer trans sm:text-lg text-sm">About</span>
-          <span className="routes_color  hover:hover:text-slate-400  cursor-pointer trans sm:text-lg text-sm"> Projects</span>
+          <span className="routes_color  hover:hover:text-slate-400  cursor-pointer trans sm:text-lg text-sm" onClick={() => navigate('/projects')}> Projects</span>
           <span className="routes_color  hover:hover:text-slate-400  cursor-pointer trans sm:text-lg text-sm">Contact</span>
         </div>
         <div className='sm:hidden '>
@@ -40,7 +40,7 @@ function NavBar() {
                 onClick={handleMenu}
                 color="inherit"
               >
-               <MenuIcon />
+               <MenuIcon className="text-white"/>
               </IconButton>
               <Menu
                 id="menu-appbar"
@@ -57,8 +57,10 @@ function NavBar() {
                 open={Boolean(anchorEl)}
                 onClose={handleClose}
               >
-                <MenuItem onClick={handleClose}>Profile</MenuItem>
-                <MenuItem onClick={handleClose}>My account</MenuItem>
+                <MenuItem onClick={handleClose} ><span className="routes_color  hover:text-black  cursor-pointer trans sm:text-lg text-sm">Home</span> </MenuItem>
+                <MenuItem onClick={handleClose} ><span className="routes_color  hover:text-black  cursor-pointer trans sm:text-lg text-sm">About</span> </MenuItem>
+                <MenuItem onClick={handleClose} ><span className="routes_color  hover:text-black  cursor-pointer trans sm:text-lg text-sm">Projects</span> </MenuItem>
+                <MenuItem onClick={handleClose} ><span className="routes_color  hover:text-black  cursor-pointer trans sm:text-lg text-sm">Contact</span></MenuItem>
               </Menu>
         </div>
        
