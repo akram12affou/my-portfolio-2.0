@@ -9,6 +9,11 @@ body, body * {
     margin: 0;
 
 }
+.tech{
+    color:aqua;
+    letter-spacing: 1px;
+    font-size: 1.05rem;
+}
 .trans{
     transition: all .1s ease-in-out;
 }
@@ -82,7 +87,7 @@ body, body * {
   
 @media only screen and (max-width: 500px) {
    .home_h2{
-       font-size: calc(1.6rem + 1vw);
+       font-size: calc(1.7rem + 1vw);
     }
     .button-89{
         font-size: 11px;
