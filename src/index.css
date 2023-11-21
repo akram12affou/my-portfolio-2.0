@@ -40,3 +40,51 @@ body, body * {
 .Inconsolata{
     font-family: Inconsolata,monospace;
 }
+.span_size{
+    font-size:  calc(.7rem + 0.4vw);;
+
+}
+/* CSS */
+.button-89 {
+    --b: 2px;   /* border thickness */
+    --s: .49em; /* size of the corner */
+    --color: rgb(148, 163, 184);
+    
+    padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+    color: white;
+    --_p: var(--s);
+    background:
+      conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
+      var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+      transition: all .3s ease-in-out;
+    outline: var(--b) solid #0000;
+    outline-offset: .6em;
+    font-size: 15px;
+  
+    border: 0;
+  
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-89:hover,
+  .button-89:focus-visible{
+    --_p: 0px;
+    outline-color: var(--color);
+    outline-offset: .04em;
+  }
+  
+  .button-89:active {
+    background: var(--color);
+    color: #000000;
+  }
+  
+@media only screen and (max-width: 500px) {
+   .home_h2{
+       font-size: calc(1.6rem + 1vw);
+    }
+    .button-89{
+        font-size: 11px;
+    }
+}
