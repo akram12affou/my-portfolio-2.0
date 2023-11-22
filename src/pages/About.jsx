@@ -3,7 +3,7 @@ import { FaLinkedin } from "react-icons/fa";
 function About() {
   return (
     <div className="bg_color text-white  main_height">
-        <div className="w-10/12 mx-auto pt-12 leading-7" >
+        <div className="w-11/12 sm:w-10/12 mx-auto pt-12 sm:leading-7 leading-6" >
 
         
       <h2 className="font-semibold text-xl tracking-wider">About me </h2>
@@ -25,7 +25,7 @@ function About() {
         domain. After that, I picked web development because it's kind of
         holding the stick from the middle, and you can transact to related
         fields later. So I departed on this journey .  I earned   <span className="tech hover:underline cursor-pointer"> 2-year web
-        development degree at  ISTA </span>, covering front-end and back-end skills.
+        development degree at  ISTA NTIC</span>, covering front-end and back-end skills.
         Emphasizing practical projects and teamwork, the program equipped me
         with problem-solving abilities and readiness for the dynamic field of
         web development.
@@ -42,9 +42,9 @@ function About() {
         was a quick glimpse into my journey, hope you like it . ❤️
       </span>
       </div>
-      <div className="flex justify-center gap-6 mt-10">
-      <LuGithub className="text-4xl text-white  span_size  trans hover:text-xl cursor-pointer"/>
-      <FaLinkedin className="text-4xl  text-white span_size trans hover:text-xl cursor-pointer"/> 
+      <div className="flex justify-center gap-6 mt-10 pb-10">
+      <LuGithub className="text-4xl text-white  span_size  trans hover:scale-110 hover:text-sky-300 cursor-pointer"/>
+      <FaLinkedin className="text-4xl  text-white span_size trans hover:scale-110 hover:text-sky-300 cursor-pointer"/> 
       </div>
     </div>
   );
