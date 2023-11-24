@@ -1,4 +1,3 @@
-import { FaInstagram } from "react-icons/fa";
  
 function Contact() {
   return (
@@ -30,8 +29,9 @@ function Contact() {
       <button className="button-89 mt-3 hover:tracking-wide font-semibold">Send</button>
       <div className="flex text-sm items-center justify-center mx-auto gap-2 mt-8">
         
-     <span className="scale-90 sm:scale-100"> Active on <span className="tech cursor-pointer hover:underline">Instagram 
-      </span>, connect with me there if you want !</span>  
+     <span className="scale-90 sm:scale-100"> Active on <span className="tech cursor-pointer hover:underline">Instagram  
+      </span> , <span className="tech cursor-pointer hover:underline"> Linkedin 
+      </span> connect with me there if you want !</span>  
       </div>
    
       </div>

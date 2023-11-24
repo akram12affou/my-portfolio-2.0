@@ -6,6 +6,7 @@ import Contact from './pages/Contact'
 import { BrowserRouter , Routes , Route } from 'react-router-dom'
 import Projects from './pages/Projects'
 import About from './pages/About'
+import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <BrowserRouter>
