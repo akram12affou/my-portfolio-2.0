@@ -37,7 +37,7 @@ function Projects() {
           
         </div>
         <div className="flex flex-col gap-3">
-         <span className="text-sm sm:text-base tracking-wide">APEX is built with <span className='tech '>React</span> , <span className='tech'>TypeScript</span> , <span className='tech'>Redux</span> , <span className='tech'>Sass</span>, <span className='tech'>Material Ui</span>   brings you up-to-date information on every coin through an API, complete with detailed charts using <span className='tech'>Chart.js</span> . You can also track your favorite coins through authentication to make informed investment decisions with <span className='tech'> Firebase </span>.</span> 
+         <span className="text-base sm:text-md tracking-wide 	 leading-7">APEX is built with <span className='tech '>React</span> , <span className='tech'>TypeScript</span> , <span className='tech'>Redux</span> , <span className='tech'>Sass</span>, <span className='tech'>Material Ui</span>   brings you up-to-date information on every coin through an API, complete with detailed charts using <span className='tech'>Chart.js</span> . You can also track your favorite coins through authentication to make informed investment decisions with <span className='tech'> Firebase </span>.</span> 
           <div className="hidden sm:flex  justify-evenly">
             <a href="https://github.com/akram12affou/coingecko-app" target="_blank" className="flex items-center gap-1 Inconsolata routes_color  font-semibold cursor-pointer hover:text-sky-300 hover:tracking-wide trans w-fit text_decoration_none">
              <LuGithub className="text-white cursor-pointer text-lg " /> Github 
@@ -52,19 +52,19 @@ function Projects() {
       
           </div>
       </div>
-      <div className='lg:w-9/12 my_shadow h-96'>
+      <div className='lg:w-9/12 my_shadow '>
       <Carousel >
                   <Carousel.Item>
-                    <img  className='rounded-lg w-full h-96 bg-slate-500 object-cover	' src={coinP1} alt="" />
+                    <img  className='rounded-lg w-full  bg-slate-500 object-cover	' src={coinP1} alt="" />
                   </Carousel.Item>
                   <Carousel.Item>
-                    <img   className='rounded-lg w-full h-96 bg-slate-500 object-cover	' src={coinP2} alt="" />
+                    <img   className='rounded-lg w-full  bg-slate-500 object-cover	' src={coinP2} alt="" />
                   </Carousel.Item>
                   <Carousel.Item>
-                    <img className='rounded-lg w-full h-96 bg-slate-500 object-cover	' src={coinP3} alt="" />
+                    <img className='rounded-lg w-full  bg-slate-500 object-cover	' src={coinP3} alt="" />
                   </Carousel.Item>
                   <Carousel.Item>
-                    <img  src={coinP4} alt="" className='rounded-lg w-full h-96 bg-slate-500 object-cover	'/>
+                    <img  src={coinP4} alt="" className='rounded-lg w-full  bg-slate-500 object-cover	'/>
                   </Carousel.Item>          
       </Carousel>
       </div>
@@ -82,12 +82,13 @@ function Projects() {
           
         </div>
         <div className="flex flex-col gap-3">
-         <span className="text-sm sm:text-base tracking-wide">APEX is built with <span className='tech '>React</span> , <span className='tech'>TypeScript</span> , <span className='tech'>Redux</span> , <span className='tech'>Sass</span>, <span className='tech'>Material Ui</span>   brings you up-to-date information on every coin through an API, complete with detailed charts using <span className='tech'>Chart.js</span> . You can also track your favorite coins through authentication to make informed investment decisions with <span className='tech'> Firebase </span>.</span> 
+         <span className="text-sm sm:text-base tracking-wide">
+Tredify, a <span className='tech  leading-7'> MERN stack</span>  e-commerce web app, boasts a streamlined shopping cart and personalized comments for each product. Utilizing  <span className='tech '>Material-UI</span> ,<span className='tech '>React Icons</span>  ,<span className="tech">Tailwind CSS</span> , and <span className="tech">Toastify</span> , it ensures a seamless user experience. </span> 
           <div className="hidden sm:flex  justify-evenly">
-            <a href="https://github.com/akram12affou/coingecko-app" target="_blank" className="flex items-center gap-1 Inconsolata routes_color  font-semibold cursor-pointer hover:text-sky-300 hover:tracking-wide trans w-fit text_decoration_none">
+            <a href="https://github.com/akram12affou/Trendify" target="_blank" className="flex items-center gap-1 Inconsolata routes_color  font-semibold cursor-pointer hover:text-sky-300 hover:tracking-wide trans w-fit text_decoration_none">
              <LuGithub className="text-white cursor-pointer text-lg " /> Github 
             </a>
-            <a href="https://deft-gumption-340eb5.netlify.app/" target="_blank" className="flex trans items-center gap-1 Inconsolata routes_color  font-semibold cursor-pointer  hover:tracking-wide hover:text-sky-300 w-fit text_decoration_none object-cover	">
+            <a href="https://github.com/akram12affou/Trendify/tree/main" target="_blank" className="flex trans items-center gap-1 Inconsolata routes_color  font-semibold cursor-pointer  hover:tracking-wide hover:text-sky-300 w-fit text_decoration_none object-cover	">
             <FaEye className="text-white cursor-pointer text-lg" /> Preview 
             </a>
             <div className="flex items-center gap-1 trans Inconsolata routes_color  font-semibold cursor-pointer  hover:tracking-wide hover:text-sky-300 w-fit">
@@ -97,19 +98,19 @@ function Projects() {
       
           </div>
       </div>
-      <div className='lg:w-9/12 my_shadow h-96'>
-      <Carousel >
+      <div className='lg:w-9/12 my_shadow   '>
+      <Carousel variant='dark' className=' rounded-sm'>
                   <Carousel.Item>
-                    <img  className='rounded-lg w-full h-96 bg-slate-500 object-cover	'  src={TRENDIFY1} alt="" />
+                    <img  className='rounded-lg w-full  bg-slate-500 object-cover	'  src={TRENDIFY1} alt="" />
                   </Carousel.Item>
                   <Carousel.Item>
-                    <img   className='rounded-lg w-full h-96 bg-slate-500 object-cover	' src={TRENDIFY2} alt="" />
+                    <img   className='rounded-lg w-full  bg-slate-500 object-cover	' src={TRENDIFY2} alt="" />
                   </Carousel.Item>
                   <Carousel.Item>
-                    <img className='rounded-lg w-full h-96 bg-slate-500 object-cover	' src={TRENDIFY3} alt="" />
+                    <img className='rounded-lg w-full  bg-slate-500 object-cover	' src={TRENDIFY3} alt="" />
                   </Carousel.Item>
                   <Carousel.Item>
-                    <img  src={TRENDIFY4} alt="" className='rounded-lg w-full h-96 bg-slate-500 object-cover	'/>
+                    <img  src={TRENDIFY4} alt="" className='rounded-lg w-full  bg-slate-500 object-cover	'/>
                   </Carousel.Item>          
       </Carousel>
       </div>
