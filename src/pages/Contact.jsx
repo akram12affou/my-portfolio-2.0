@@ -29,8 +29,8 @@ function Contact() {
       <button className="button-89 mt-3 hover:tracking-wide font-semibold">Send</button>
       <div className="flex text-sm items-center justify-center mx-auto gap-2 mt-8 w-11/12">
         
-     <span className="scale-90 sm:scale-100 tracking-wide "> the most common ways to  contact me would be via <span className="tech cursor-pointer hover:underline" >Instagram</span>, <span className="tech cursor-pointer hover:underline"> 
-     email </span > or <span className="tech cursor-pointer hover:underline"> LinkedIn </span>.</span> 
+     <span className="scale-90 sm:scale-100 tracking-wide"> the most common ways to  contact me would be via <a className="text_decoration_none" href="https://www.instagram.com/akraaam_9/"><span className="tech cursor-pointer hover:underline" >Instagram</span></a>, <a href="mailto:akramaffou@gmail.com" className="text_decoration_none"><span className="tech cursor-pointer hover:underline"> 
+     email </span ></a> or <a className="text_decoration_none" href="https://www.linkedin.com/in/akram-affou/"><span className="tech cursor-pointer hover:underline"> LinkedIn </span></a>.</span> 
       </div>
    
       </div>

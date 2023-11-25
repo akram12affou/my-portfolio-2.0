@@ -18,33 +18,17 @@ function About() {
       </span>
       <br /><br />
       <span className="tracking-wide">
-        As I said before, my name is Akram. I'm a nineteen year old young man
-        from Morocco. I first found out about this programming field last year
-        and liked it so much, so I decided that is what I'm gonna do. After
-        doing a ton of research on the internet, I did find that it's a large
-        domain. After that, I picked web development because it's kind of
-        holding the stick from the middle, and you can transact to related
-        fields later. So I departed on this journey .  I earned   <span className="tech hover:underline cursor-pointer"> 2-year web
-        development degree at  ISTA NTIC</span>, covering front-end and back-end skills.
-        Emphasizing practical projects and teamwork, the program equipped me
-        with problem-solving abilities and readiness for the dynamic field of
-        web development.
+
+      Hey, I'm Akram, a nineteen-year-old from Morocco diving into the coding universe. Last year, I discovered the magic of programming online and decided, "Yep, that's my thing!" I set sail for web development—it's like the central hub of cool coding stuff. Bagged a <span className="tech hover:underline cursor-pointer"> 2-year web dev degree at ISTA NTIC </span> , where I learned front-end, back-end, and everything in between. No boring lectures; it was all about hands-on projects and teamwork. Now, armed with problem-solving skills, I'm ready to ride the waves of the dynamic web development world! 
       </span>
       <br /><br />
       <span className="tracking-wide">
-        I used a wide collection of resources in my learning, from <span className="tech hover:underline cursor-pointer"> freeCodeCamp </span> 
-        and  <span className="tech hover:underline cursor-pointer"> MDN </span> to YouTube (I watched so many videos from these channels:
-            <span className="tech hover:underline cursor-pointer"> Traversy media </span>  ,  <span className="tech hover:underline cursor-pointer"> Web Dev Simplified </span> , <span className="tech hover:underline cursor-pointer" > Fireship </span> , and so many others).And
-        solved so many algorithmic challenges over <span className="tech hover:underline cursor-pointer"> HackerRank </span>   , and build so
-        many projects. I devoted all of my time and effort to this. It was a
-        rough journey, full of hard times and bugs. But I didn't give up and I
-        won't do. And here I'm, after several months of constant battle. That
-        was a quick glimpse into my journey, hope you like it . ❤️
+      Dove into learning using diverse resources like freeCodeCamp, MDN, and YouTube channels (Traversy Media, Web Dev Simplified, Fireship). Tackled algorithmic challenges on <span className="tech hover:underline cursor-pointer" >HackerRank</span> , built numerous projects—devoting all my time and effort. The journey was tough, filled with bugs and challenges, but I never gave up. After months of constant battle, here I am! ❤️
       </span>
       </div>
       <div className="flex justify-center gap-6 mt-10 pb-10">
       <LuGithub className="text-4xl   span_size  trans hover:scale-110 hover:text-sky-300 cursor-pointer"/>
-      <FaLinkedin className="text-4xl  span_size trans hover:scale-110 hover:text-sky-300 cursor-pointer"/> 
+      <FaLinkedin className="text-4xl   span_size trans hover:scale-110 hover:text-sky-300 cursor-pointer"/> 
       </div>
     </div>
   );

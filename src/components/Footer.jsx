@@ -7,7 +7,7 @@ function Footer() {
               <div className='Inconsolata routes_color text-xs sm:text-sm md:text-sm hidden md:flex'>
         © 2023 Akram Affou. All rights Reserved
         </div>
-        <div className='flex sm:gap-3 gap-5'>
+        <div className='flex sm:gap-3 gap-2'>
           <div>
          <span className='Inconsolata routes_color text-xs sm:text-sm md:text-sm'>
          Email:

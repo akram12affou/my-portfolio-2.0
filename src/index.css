@@ -90,7 +90,9 @@ body, body * {
     background: var(--color);
     color: #000000;
   }
-  
+  .text_decoration_none{
+    text-decoration:none;
+  }
 @media only screen and (max-width: 500px) {
    .home_h2{
        font-size: calc(1.7rem + 1vw);
