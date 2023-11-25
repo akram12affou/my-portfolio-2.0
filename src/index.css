@@ -13,10 +13,12 @@ body, body * {
     box-shadow: 1px 1px 3px #7a7a7a;
 
 }
+
+
 .tech{
     color:aqua;
     letter-spacing: 1px;
-    font-size: 1.05rem;
+    font-size: 1.01rem;
 }
 .trans{
     transition: all .1s ease-in-out;
@@ -96,4 +98,10 @@ body, body * {
     .button-89{
         font-size: 13px;
     }
+    .tech{
+        color:aqua;
+        letter-spacing: 1px;
+        font-size: 1rem;
+    }
+  
 }

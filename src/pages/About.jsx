@@ -43,8 +43,8 @@ function About() {
       </span>
       </div>
       <div className="flex justify-center gap-6 mt-10 pb-10">
-      <LuGithub className="text-4xl text-white  span_size  trans hover:scale-110 hover:text-sky-300 cursor-pointer"/>
-      <FaLinkedin className="text-4xl  text-white span_size trans hover:scale-110 hover:text-sky-300 cursor-pointer"/> 
+      <LuGithub className="text-4xl   span_size  trans hover:scale-110 hover:text-sky-300 cursor-pointer"/>
+      <FaLinkedin className="text-4xl  span_size trans hover:scale-110 hover:text-sky-300 cursor-pointer"/> 
       </div>
     </div>
   );

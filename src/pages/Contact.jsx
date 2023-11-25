@@ -20,18 +20,17 @@ function Contact() {
         </div>
         
         
-      <div className="flex   flex-col">
+      <div className="flex flex-col ">
           <label htmlFor="" >Message</label>
           <textarea type="text" className="outline-none sm:w-96 w-full mx-auto rounded-sm	h-36 text-black p-2" placeholder="Your Message"/>
       </div>
       </div>
      
       <button className="button-89 mt-3 hover:tracking-wide font-semibold">Send</button>
-      <div className="flex text-sm items-center justify-center mx-auto gap-2 mt-8">
+      <div className="flex text-sm items-center justify-center mx-auto gap-2 mt-8 w-11/12">
         
-     <span className="scale-90 sm:scale-100"> Active on <span className="tech cursor-pointer hover:underline">Instagram  
-      </span> , <span className="tech cursor-pointer hover:underline"> Linkedin 
-      </span> connect with me there if you want !</span>  
+     <span className="scale-90 sm:scale-100 tracking-wide "> the most common ways to  contact me would be via <span className="tech cursor-pointer hover:underline" >Instagram</span>, <span className="tech cursor-pointer hover:underline"> 
+     email </span > or <span className="tech cursor-pointer hover:underline"> LinkedIn </span>.</span> 
       </div>
    
       </div>
