@@ -1,8 +1,14 @@
 import { LuGithub } from "react-icons/lu";
 import { FaLinkedin } from "react-icons/fa";
+import { motion } from "framer-motion";
+
 function About() {
   return (
     <div className="bg_color text-white  main_height">
+        <motion.div
+          initial={{ y: 22, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+        >
         <div className="w-11/12 sm:w-10/12 mx-auto pt-12 sm:leading-7 leading-6" >
 
         
@@ -30,6 +36,7 @@ function About() {
       <LuGithub className="text-4xl   span_size  trans hover:scale-110 hover:text-sky-300 cursor-pointer"/>
       <FaLinkedin className="text-4xl   span_size trans hover:scale-110 hover:text-sky-300 cursor-pointer"/> 
       </div>
+      </motion.div>
     </div>
   );
 }

@@ -1,7 +1,13 @@
- 
+import { motion } from "framer-motion";
 function Contact() {
   return (
-    <div className=" bg_color text-white main_height flex items-center">
+    <div className=" bg_color">
+    <motion.div
+    initial={{ y: 22, opacity: 0 }}
+    animate={{ y: 0, opacity: 1 }}
+  >
+    <div className=" text-white main_height flex items-center">
+         
       <div className=" flex justify-center flex-col mx-auto pb-4 gap-2 items-center">
         <div className="flex justify-center flex-col items-center">
              <h2 className="font-semibold lg:text-3xl text-2xl tracking-wider uppercase m-1">contact</h2>
@@ -34,7 +40,9 @@ function Contact() {
       </div>
    
       </div>
-     
+      
+      </div>
+      </motion.div>
       </div>
     
   )
