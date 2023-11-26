@@ -33,8 +33,8 @@ function About() {
       </span>
       </div>
       <div className="flex justify-center gap-6 mt-10 pb-10">
-      <LuGithub className="text-4xl   span_size  trans hover:scale-110 hover:text-sky-300 cursor-pointer"/>
-      <FaLinkedin className="text-4xl   span_size trans hover:scale-110 hover:text-sky-300 cursor-pointer"/> 
+      <a href='https://github.com/akram12affou' target="_blank" className="text_decoration_none text-white"><LuGithub className="text-4xl   span_size  trans hover:scale-110 hover:text-sky-300 cursor-pointer"/></a>
+      <a href="https://www.linkedin.com/in/akram-affou/" className='text_decoration_none text-white' target="_blank"><FaLinkedin className="text-4xl   span_size trans hover:scale-110 hover:text-sky-300 cursor-pointer"/> </a>
       </div>
       </motion.div>
     </div>

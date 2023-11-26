@@ -42,7 +42,7 @@ function Home() {
           <BsFiletypePdf className="text-xl text-white span_size"/> resume
         </span>
         </div>
-        <button className="flex justify-center mx-auto font-semibold hover:tracking-wide button-89 mt-3 "  onClick={() => navigate('/projects')}>VIEW PROJECTS</button>
+        <button className="flex justify-center mx-auto font-semibold tracking-wider  button-89 mt-3 "  onClick={() => navigate('/projects')}>VIEW PROJECTS</button>
     </div>
     </motion.div>
     </div>
