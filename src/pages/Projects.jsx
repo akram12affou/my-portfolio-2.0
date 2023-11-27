@@ -27,13 +27,13 @@ function Projects() {
           initial={{ y: 22, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
         >
-        <div className='flex justify-center flex-col text-white pt-10 mx-auto '>
+        <div className='flex justify-center flex-col text-white pt-10 mx-auto'>
           <h2 className='flex justify-center text-3xl font-semibold'>PORTFOLIO</h2>
           <span className='flex justify-center mx-auto Inconsolata routes_color sm:text-sm text-xs font-semibold w-10/12'>these are my favorite projects I've worked on for the past year. Have a look around and make sure to hit me up! 👋</span>
         </div>
     <div className='flex flex-col gap-2'>
   
-    <div className="flex flex-col lg:flex-row justify-center  text-white w-10/12 mx-auto items-start gap-2 mt-4">
+    <div className="flex flex-col lg:flex-row justify-center  text-white w-10/12 mx-auto items-start gap-2 mt-5">
       <div className="lg:w-7/12">
         <div className="flex items-center gap-3 ">
           <h3 className="font-semibold tracking-wider text-2xl hover:underline cursor-pointer">TRENDIFY</h3>
@@ -79,7 +79,7 @@ function Projects() {
       </div>
 
     </div>
-    <div className="flex flex-col lg:flex-row justify-center  text-white w-10/12 mx-auto items-start gap-2 mt-4 ">
+    <div className="flex flex-col lg:flex-row justify-center  text-white w-10/12 mx-auto items-start gap-2 mt-5 ">
       <div className="lg:w-7/12">
         <div className="flex items-center gap-3 ">
           <h3 className="font-semibold tracking-wider text-2xl hover:underline cursor-pointer">CINEMAGIC</h3>
@@ -132,7 +132,7 @@ Cinemagic, my movie app, is a cool creation using the <span className="tech">MER
       </div>
 
     </div>
-    <div className="flex flex-col lg:flex-row justify-center  text-white w-10/12 mx-auto items-start gap-2 mt-4 mb-6">
+    <div className="flex flex-col lg:flex-row justify-center  text-white w-10/12 mx-auto items-start gap-2 mt-5 mb-6">
       <div className="lg:w-7/12">
         <div className="flex items-center gap-3 ">
           <h3 className="font-semibold tracking-wider text-2xl hover:underline cursor-pointer">APEX</h3>
