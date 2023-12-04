@@ -4,6 +4,7 @@ import { HiOutlineMail } from "react-icons/hi";
 import { BsFiletypePdf } from "react-icons/bs";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
+import resume from '../assets/resume-akram-1.pdf'
 
 function Home() {
   const navigate = useNavigate()
@@ -37,10 +38,12 @@ function Home() {
           <HiOutlineMail className="text-xl text-white span_size" /> email
         </span>
 </a>
-          
+<a target='_blank' className="text_decoration" href={resume} download> 
         <span className="cursor-pointer Inconsolata routes_color hover:underline trans hover:text-slate-400  flex items-center gap-1 span_size font-semibold">
           <BsFiletypePdf className="text-xl text-white span_size"/> resume
+         
         </span>
+        </a>
         </div>
         <button className="flex justify-center mx-auto font-semibold tracking-wider  button-89 mt-3 "  onClick={() => navigate('/projects')}>VIEW PROJECTS</button>
     </div>

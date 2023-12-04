@@ -1,6 +1,7 @@
 import { LuGithub } from "react-icons/lu";
 import { FaLinkedin } from "react-icons/fa";
 import { motion } from "framer-motion";
+import resume from '../assets/resume-akram-1.pdf'
 
 function About() {
   return (
@@ -18,8 +19,8 @@ function About() {
         Hi, my name is Akram AFFOU. I'm a Full-stack web developer with decent
         knowledge in other technologies in the field as well. For an in-depth
         insight into my skills and qualifications, I invite you to check out   
-        <span className="tech hover:underline cursor-pointer">
-        &nbsp; my Resume 
+        <span className="tech  cursor-pointer">
+        <a target='_blank' className="text_decoration_none hover:underline" href={resume}  download> &nbsp; my Resume </a>
         </span>.
       </span>
       <br /><br />
@@ -29,7 +30,7 @@ function About() {
       </span>
       <br /><br />
       <span className="tracking-wide">
-      Dove into learning using diverse resources like freeCodeCamp, MDN, and YouTube channels (Traversy Media, Web Dev Simplified, Fireship). Tackled algorithmic challenges on <span className="tech hover:underline cursor-pointer" >HackerRank</span> , built numerous projects—devoting all my time and effort. The journey was tough, filled with bugs and challenges, but I never gave up. After months of constant battle, here I am! ❤️
+      Dove into learning using diverse resources like freeCodeCamp, MDN, and YouTube channels (Traversy Media, Web Dev Simplified, Fireship). Tackled algorithmic challenges on <a href="https://www.hackerrank.com/profile/akramaffou" target="_blank" className="text_decoration"><span className="tech hover:underline cursor-pointer" >HackerRank</span></a> , built numerous projects—devoting all my time and effort. The journey was tough, filled with bugs and challenges, but I never gave up. After months of constant battle, here I am! ❤️
       </span>
       </div>
       <div className="flex justify-center gap-6 mt-10 pb-10">

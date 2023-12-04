@@ -9,6 +9,11 @@ body, body * {
     margin: 0;
 
 }
+
+.text_decoration_none{
+     text-decoration: none;
+     color: aqua;
+}
 .my_shadow{
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 
@@ -19,6 +24,7 @@ body, body * {
     color:aqua;
     letter-spacing: 1px;
     font-size: 1.01rem;
+    
 }
 .trans{
     transition: all .1s ease-in-out;
@@ -90,8 +96,13 @@ body, body * {
     background: var(--color);
     color: #000000;
   }
-  .text_decoration_none{
+  .text_decoration{
     text-decoration:none;
+  }
+  .image{
+    min-height: 300px;
+    width: 100px;
+    background: rgb(219, 76, 76);
   }
 @media only screen and (max-width: 500px) {
    .home_h2{
@@ -103,7 +114,7 @@ body, body * {
     .tech{
         color:aqua;
         letter-spacing: 1px;
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
   
 }
