@@ -22,10 +22,10 @@ function NavBar() {
           <img src={akram}  onClick={() => navigate('/')} className="logo_dimentions cursor-pointer" alt="" />
         </div>
         <div className="sm:flex justify-evenly gap-4 hidden">
-          <span className="routes_color  hover:hover:text-slate-400  cursor-pointer trans sm:text-lg text-sm" onClick={() => navigate('/')}>Home</span>
-          <span className="routes_color  hover:hover:text-slate-400  cursor-pointer trans sm:text-lg text-sm" onClick={() => navigate('/projects')}>Projects</span>
-          <span className="routes_color  hover:hover:text-slate-400  cursor-pointer trans sm:text-lg text-sm" onClick={() => navigate('/about')}>About</span>
-          <span className="routes_color  hover:hover:text-slate-400  cursor-pointer trans sm:text-lg text-sm" onClick={() => navigate('/contact')}>Contact</span>
+          <span className="routes    cursor-pointer trans sm:text-lg text-sm" onClick={() => navigate('/')}>Home</span>
+          <span className="routes    cursor-pointer trans sm:text-lg text-sm" onClick={() => navigate('/projects')}>Projects</span>
+          <span className="routes    cursor-pointer trans sm:text-lg text-sm" onClick={() => navigate('/about')}>About</span>
+          <span className="routes    cursor-pointer trans sm:text-lg text-sm" onClick={() => navigate('/contact')}>Contact</span>
         </div>
         <div className='sm:hidden '>
  <IconButton
@@ -53,7 +53,7 @@ function NavBar() {
                 open={Boolean(anchorEl)}
                 onClose={handleClose}
               >
-                <MenuItem onClick={handleClose} ><span className="routes_color  hover:text-black  cursor-pointer trans sm:text-lg text-sm" onClick={() => navigate('/')}>Home</span> </MenuItem>
+                <MenuItem onClick={handleClose} ><span className="routes_color  hover:text-black  cursor-pointer trans sm:text-lg text-sm " onClick={() => navigate('/')}>Home</span> </MenuItem>
                 <MenuItem onClick={handleClose} ><span className="routes_color  hover:text-black  cursor-pointer trans sm:text-lg text-sm" onClick={() => navigate('/about')}>About</span> </MenuItem>
                 <MenuItem onClick={handleClose} ><span className="routes_color  hover:text-black  cursor-pointer trans sm:text-lg text-sm" onClick={() => navigate('/projects')}>Projects</span> </MenuItem>
                 <MenuItem onClick={handleClose} ><span className="routes_color  hover:text-black  cursor-pointer trans sm:text-lg text-sm" onClick={() => navigate('/contact')}>Contact</span></MenuItem>

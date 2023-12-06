@@ -60,19 +60,19 @@ function Projects() {
           </div>
           </div>
       </div>
-      <div className='lg:w-9/12 my_shadow '>
-      <Carousel variant='dark'>
+      <div className=' my_shadow '>
+      <Carousel variant='dark' className='img_dimentions'>
                   <Carousel.Item>
-                    <img   className='rounded-lg w-full  bg-slate-500 object-cover	' src={TRENDIFY1} alt="" />
+                    <img   className='rounded-lg w-full  bg-slate-500 object-cover img	' src={TRENDIFY1} alt="" />
                   </Carousel.Item>
                   <Carousel.Item>
-                    <img className='rounded-lg w-full  bg-slate-500 object-cover	' src={TRENDIFY2} alt="" />
+                    <img className='rounded-lg w-full  bg-slate-500 object-cover img	' src={TRENDIFY2} alt="" />
                   </Carousel.Item>
                   <Carousel.Item>
-                    <img  src={TRENDIFY3} alt="" className='rounded-lg w-full  bg-slate-500 object-cover	'/>
+                    <img  src={TRENDIFY3} alt="" className='rounded-lg w-full  bg-slate-500 object-cover img	'/>
                   </Carousel.Item>          
                   <Carousel.Item>
-                    <img  src={TRENDIFY4} alt="" className='rounded-lg w-full  bg-slate-500 object-cover	'/>
+                    <img  src={TRENDIFY4} alt="" className='rounded-lg w-full  bg-slate-500 object-cover img	'/>
                   </Carousel.Item>                   
       </Carousel>
       </div>
@@ -103,25 +103,25 @@ function Projects() {
           </div>
           </div>
       </div>
-      <div className='lg:w-9/12 my_shadow '>
-      <Carousel>
+      <div className=' my_shadow '>
+      <Carousel className='img_dimentions'>
                   <Carousel.Item>
-                    <img className='rounded-lg w-full  bg-slate-500 object-cover	' src={CINEMAGIC2} alt="" />
+                    <img className='rounded-lg w-full  bg-slate-500 object-cover	img' src={CINEMAGIC2} alt="" />
                   </Carousel.Item>
                   <Carousel.Item>
-                    <img className='rounded-lg w-full  bg-slate-500 object-cover	' src={CINEMAGIC3} alt="" />
+                    <img className='rounded-lg w-full  bg-slate-500 object-cover	img' src={CINEMAGIC3} alt="" />
                   </Carousel.Item>
                   <Carousel.Item>
-                    <img  src={CINEMAGIC4} alt="" className='rounded-lg w-full  bg-slate-500 object-cover	'/>
+                    <img  src={CINEMAGIC4} alt="" className='rounded-lg w-full  bg-slate-500 object-cover	 img'/>
                   </Carousel.Item>          
                   <Carousel.Item>
-                    <img  src={CINEMAGIC5} alt="" className='rounded-lg w-full  bg-slate-500 object-cover	'/>
+                    <img  src={CINEMAGIC5} alt="" className='rounded-lg w-full  bg-slate-500 object-cover	 img'/>
                   </Carousel.Item>          
                   <Carousel.Item>
-                    <img  src={CINEMAGIC6} alt="" className='rounded-lg w-full  bg-slate-500 object-cover	'/>
+                    <img  src={CINEMAGIC6} alt="" className='rounded-lg w-full  bg-slate-500 object-cover	 img'/>
                   </Carousel.Item>          
                   <Carousel.Item>
-                    <img  src={CINEMAGIC8} alt="" className='rounded-lg w-full  bg-slate-500 object-cover	'/>
+                    <img  src={CINEMAGIC8} alt="" className='rounded-lg w-full  bg-slate-500 object-cover	img'/>
                   </Carousel.Item>          
       </Carousel>
       </div>
@@ -153,19 +153,19 @@ function Projects() {
           </div>
           </div>
       </div>
-      <div className='lg:w-9/12 my_shadow '>
-      <Carousel >
+      <div className=' my_shadow '>
+      <Carousel className='img_dimentions'>
                   <Carousel.Item>
-                    <img  className='rounded-lg w-full  bg-slate-500 object-cover	' src={coinP1} alt="" />
+                    <img  className='rounded-lg w-full  bg-slate-500 object-cover	img' src={coinP1} alt="" />
                   </Carousel.Item>
                   <Carousel.Item>
-                    <img   className='rounded-lg w-full  bg-slate-500 object-cover	' src={coinP2} alt="" />
+                    <img   className='rounded-lg w-full  bg-slate-500 object-cover	img' src={coinP2} alt="" />
                   </Carousel.Item>
                   <Carousel.Item>
-                    <img className='rounded-lg w-full  bg-slate-500 object-cover	' src={coinP3} alt="" />
+                    <img className='rounded-lg w-full  bg-slate-500 object-cover	img' src={coinP3} alt="" />
                   </Carousel.Item>
                   <Carousel.Item>
-                    <img  src={coinP4} alt="" className='rounded-lg w-full  bg-slate-500 object-cover	'/>
+                    <img  src={coinP4} alt="" className='rounded-lg w-full  bg-slate-500 object-cover	img'/>
                   </Carousel.Item>          
       </Carousel>
       </div>
