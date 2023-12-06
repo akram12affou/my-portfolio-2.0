@@ -45,7 +45,7 @@ function Home() {
         </span>
         </a>
         </div>
-        <button className="flex justify-center mx-auto font-semibold tracking-wider  button-89 mt-3 "  onClick={() => navigate('/projects')}>VIEW PROJECTS</button>
+        <button className="flex justify-center mx-auto  tracking-wider  button-89 mt-3 "  onClick={() => navigate('/projects')}>VIEW PROJECTS</button>
     </div>
     </motion.div>
     </div>

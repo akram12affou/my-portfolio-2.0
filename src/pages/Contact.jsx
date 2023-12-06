@@ -54,7 +54,7 @@ function Contact() {
       </div>
       </div>
      
-      <button className="button-89 mt-3  font-semibold tracking-wider" onClick={sendEmail}>Send</button>
+      <button className="button-89 mt-3   tracking-wider" onClick={sendEmail}>Send</button>
       <div className="flex text-sm items-center justify-center mx-auto gap-2 mt-8 w-11/12">
         
      <span className="scale-90 sm:scale-100 tracking-wide"> the most common ways to  contact me would be via <a className="text_decoration_none" target="_blank"  href="https://www.instagram.com/akraaam_9/"><span className="tech cursor-pointer hover:underline" >Instagram</span></a>, <a href="mailto:akramaffou@gmail.com" target="_blank"  className="text_decoration_none"><span className="tech cursor-pointer hover:underline"> 
