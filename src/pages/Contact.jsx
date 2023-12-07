@@ -29,7 +29,6 @@ function Contact() {
     animate={{ y: 0, opacity: 1 }}
   >
     <div className=" text-white main_height flex items-center">
-         
       <div className=" flex justify-center flex-col mx-auto pb-4 gap-2 items-center">
         <div className="flex justify-center flex-col items-center">
              <h2 className="font-semibold lg:text-3xl text-2xl tracking-wider uppercase m-1">contact</h2>
