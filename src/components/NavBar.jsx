@@ -11,7 +11,6 @@ function NavBar() {
   const handleMenu = (event) => {
     setAnchorEl(event.currentTarget);
   };
-
   const handleClose = () => {
     setAnchorEl(null);
   };
@@ -22,10 +21,10 @@ function NavBar() {
           <img src={akram}  onClick={() => navigate('/')} className="logo_dimentions cursor-pointer" alt="" />
         </div>
         <div className="sm:flex justify-evenly gap-4 hidden">
-          <span className="routes    cursor-pointer trans sm:text-lg text-sm" onClick={() => navigate('/')}>Home</span>
-          <span className="routes    cursor-pointer trans sm:text-lg text-sm" onClick={() => navigate('/projects')}>Projects</span>
-          <span className="routes    cursor-pointer trans sm:text-lg text-sm" onClick={() => navigate('/about')}>About</span>
-          <span className="routes    cursor-pointer trans sm:text-lg text-sm" onClick={() => navigate('/contact')}>Contact</span>
+          <a className="routes  text_decoration_none  cursor-pointer trans sm:text-lg text-sm" href="#">Home</a>
+          <a className="routes  text_decoration_none   cursor-pointer trans sm:text-lg text-sm" href="#about">About</a>
+          <a className="routes  text_decoration_none   cursor-pointer trans sm:text-lg text-sm" href="#projects" >Projects</a>
+          <a className="routes  text_decoration_none   cursor-pointer trans sm:text-lg text-sm" href="#contact">Contact</a>
         </div>
         <div className='sm:hidden '>
  <IconButton

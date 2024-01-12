@@ -23,7 +23,7 @@ function Contact() {
       );
   };
   return (
-    <div className=" bg_color">
+    <div className=" bg_color" id="contact">
     <motion.div
     initial={{ y: 22, opacity: 0 }}
     animate={{ y: 0, opacity: 1 }}

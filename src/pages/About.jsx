@@ -1,11 +1,16 @@
 import { LuGithub } from "react-icons/lu";
 import { FaLinkedin } from "react-icons/fa";
-import { motion } from "framer-motion";
 import resume from '../assets/resume-akram-1.pdf'
-
+import { motion, useScroll } from "framer-motion";
+import { useRef } from "react";
 function About() {
+  const ref = useRef(null)
+  const {scrollYProgress} = useScroll({
+    target:ref,
+    offset:['-4 1' , '1 2.8']
+  })
   return (
-    <div className="bg_color text-white  main_height">
+    <div className="bg_color text-white  main_height" id="about">
         <motion.div
           initial={{ y: 22, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
@@ -13,8 +18,19 @@ function About() {
         <div className="w-11/12 sm:w-10/12 mx-auto pt-12 sm:leading-7 leading-6" >
 
         
-      <h2 className="font-semibold text-xl tracking-wider">About me </h2>
+      <h2 className="font-semibold  tracking-wider flex justify-center text-3xl">ABOUT ME</h2>
 <br />
+    <motion.div 
+      
+         animate={{
+          translateX: ['-100%', '0%'], // Animate from -100% to 0% on the X-axis
+        }}
+        transition={{
+          duration: 1, // Duration of the animation in seconds
+          ease: 'linear', // Linear easing for a constant scroll speed
+          repeat: Infinity, // Repeat the animation infinitely
+        }}
+    >
       <span className="tracking-wide">
         Hi, my name is Akram AFFOU. I'm a Full-stack web developer with decent
         knowledge in other technologies in the field as well. For an in-depth
@@ -23,6 +39,7 @@ function About() {
         <a target='_blank' className="text_decoration_none hover:underline" href={resume}  download> &nbsp; my Resume </a>
         </span>.
       </span>
+      </motion.div>
       <br /><br />
       <span className="tracking-wide">
 

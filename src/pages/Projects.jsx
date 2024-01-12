@@ -1,4 +1,4 @@
-import React from 'react'
+import React , {useRef} from 'react'
 import { LuGithub } from "react-icons/lu";
 import { FaEye } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
@@ -19,9 +19,20 @@ import CINEMAGIC5 from '../assets/project3_5.png'
 import CINEMAGIC6 from '../assets/project3_6.png'
 
 import CINEMAGIC8 from '../assets/project3_8.png'
-import { motion } from "framer-motion";
+import { motion, useScroll } from "framer-motion";
 
 function Projects() {
+  const ref = useRef(null)
+  const ref2 = useRef(null)
+  const {scrollYProgress} = useScroll({
+    target:ref,
+    offset:['-4 1' , '1 2.8']
+  })
+  const {scrollYProgresstwo} = useScroll({
+    target:ref2,
+    offset:['-4 1' , '1 2.8']
+  })
+
   return (
     <div className='bg_color'>
            <motion.div
@@ -29,11 +40,17 @@ function Projects() {
           animate={{ y: 0, opacity: 1 }}
         >
         <div className='flex justify-center flex-col text-white pt-10 mx-auto'>
-          <h2 className='flex justify-center text-3xl font-semibold'>PORTFOLIO</h2>
+          <h2 className='flex justify-center text-3xl font-semibold' id='projects'>PORTFOLIO</h2>
           <span className='flex justify-center mx-auto Inconsolata routes_color sm:text-sm text-xs font-semibold w-10/12'>these are my favorite projects I've worked on for the past year. Have a look around and make sure to hit me up! 👋</span>
         </div>
-    <div className='flex flex-col gap-2'>
-    <div className="flex flex-col lg:flex-row justify-center  text-white w-10/12 mx-auto items-start gap-2 mt-5">
+    <div  className='flex flex-col gap-2'>
+    <motion.div
+    style={{
+      scale:scrollYProgress,
+      opacity:scrollYProgress
+    }}
+    
+     useRef={ref} className="flex flex-col lg:flex-row justify-center  text-white w-10/12 mx-auto items-start gap-2 mt-5">
       <div className="lg:w-7/12">
         <div className="flex items-center gap-3 ">
         <a href="https://guileless-stroopwafel-dd9539.netlify.app/" className='text_decoration text-white' target="_blank"><h3 className="font-semibold tracking-wider text-2xl hover:underline cursor-pointer">TRENDIFY</h3></a>
@@ -78,8 +95,15 @@ function Projects() {
                   </Carousel.Item>                   
       </Carousel>
       </div>
-    </div>
-    <div className="flex flex-col lg:flex-row justify-center  text-white w-10/12 mx-auto items-start gap-2 mt-5 ">
+    </motion.div>
+    <motion.div 
+ style={{
+  scale:scrollYProgress,
+  opacity:scrollYProgress
+}}
+
+ useRef={ref}
+     className="flex flex-col lg:flex-row justify-center  text-white w-10/12 mx-auto items-start gap-2 mt-5 ">
       <div className="lg:w-7/12">
         <div className="flex items-center gap-3 ">
         <a href="https://cinemagic-client.vercel.app" className='text_decoration text-white' target="_blank"><h3 className="font-semibold tracking-wider text-2xl hover:underline cursor-pointer">CINEMAGIC</h3></a> 
@@ -125,8 +149,15 @@ function Projects() {
       </Carousel>
       </div>
 
-    </div>
-    <div className="flex flex-col lg:flex-row justify-center  text-white w-10/12 mx-auto items-start gap-2 mt-5 mb-6">
+    </motion.div>
+    <motion.div
+     style={{
+  scale:scrollYProgress,
+  opacity:scrollYProgress
+}}
+
+ useRef={ref}
+    className="flex flex-col lg:flex-row justify-center  text-white w-10/12 mx-auto items-start gap-2 mt-5 mb-6">
       <div className="lg:w-7/12">
         <div className="flex items-center gap-3 ">
         <a href="https://deft-gumption-340eb5.netlify.app/" target="_blank" className='text_decoration text-white'><h3 className="font-semibold tracking-wider text-2xl hover:underline cursor-pointer">APEX</h3></a>  
@@ -166,7 +197,7 @@ function Projects() {
                   </Carousel.Item>          
       </Carousel>
       </div>
-    </div>
+    </motion.div>
     </div>
     </motion.div>
     </div>
