@@ -15,7 +15,7 @@ function NavBar() {
     setAnchorEl(null);
   };
   return (
-    <div className=" mx-auto bg_color hover:text-white  h-16">
+    <div className=" mx-auto bg_color hover:text-white  h-22 sticky top-0 z-10 ">
       <div className="flex justify-between items-center w-10/12 mx-auto">
         <div className="">
           <img src={akram}  onClick={() => navigate('/')} className="logo_dimentions cursor-pointer" alt="" />
@@ -59,6 +59,11 @@ function NavBar() {
               </Menu>
         </div>
        
+      </div>
+      <div>
+        <div className="board">
+        
+        </div>
       </div>
     </div>
   );

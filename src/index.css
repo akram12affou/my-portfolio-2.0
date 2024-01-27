@@ -9,7 +9,10 @@ body, body * {
     margin: 0;
 
 }
-
+.content_carousel{
+    width: 45vw;
+    height: 20vw;
+}
 .text_decoration_none{
      text-decoration: none;
      color: aqua;
@@ -50,9 +53,10 @@ body, body * {
 
 .img_dimentions{
     border-radius: 0.5rem;
-   width: 45vw;
-   height: 20vw;
+
+   
    background: #000;
+ 
 }
 .img{
     border-radius: 0.5rem;
@@ -149,6 +153,13 @@ body, body * {
         font-size: 0.9rem;
     }
   
+}
+.board{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(169, 169, 169);
+    z-index: 10;
+    
 }
 @media only screen and (max-width: 1024px) {
     .img_dimentions{
