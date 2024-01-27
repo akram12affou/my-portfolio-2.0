@@ -18,7 +18,6 @@ function App() {
     if(isinView){
       mainControls.start("visible");
     }
-    console.log(isinView);
   } , [isinView]);
   return (
     <BrowserRouter>
@@ -29,7 +28,6 @@ function App() {
     }}
     animate={mainControls}
     >
-      
     <NavBar/>
     <Home/>
     <About/>

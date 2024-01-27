@@ -11,10 +11,10 @@ function Apex() {
     const ref = useRef(null)
     const {scrollYProgress} = useScroll({
       target:ref,
-      offset:['start end','end end']
+      offset:['start end','1 end']
     });
-    const scale = useTransform(scrollYProgress , [0,0.75] , [0.6,1])
-    const opacity = useTransform(scrollYProgress , [0,0.75] , [0.6,1])
+    const scale = useTransform(scrollYProgress , [0,0.75] , [0.4,1])
+    const opacity = useTransform(scrollYProgress , [0,0.75] , [0.4,1])
   return (
     <motion.div
     style={{scale , opacity}}
@@ -42,7 +42,8 @@ function Apex() {
           </div>
           </div>
       </div>
-      <div className=' my_shadow  content_carousel'>
+      <div className=' my_shadow  lg:w-[45vw]
+    lg:h-[20vw]'>
       <Carousel className='img_dimentions'>
                   <Carousel.Item>
                     <img  className='rounded-lg w-full  bg-slate-500 object-cover	img' src={coinP1} alt="" />

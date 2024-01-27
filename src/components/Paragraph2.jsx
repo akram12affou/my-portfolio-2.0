@@ -12,6 +12,7 @@ function Paragraph2() {
   const opacity = useTransform(scrollYProgress , [0,0.3] , [0,1])
   return (
     <motion.div 
+   
     ref={ref}
     style={{
       opacity,

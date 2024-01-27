@@ -15,12 +15,12 @@ function About() {
   const opacity = useTransform(scrollYProgress , [0,0.3] , [0,1])
 
   return (
-    <div className="bg_color text-white  main_height" id="about">
+    <div id="about"className="bg_color text-white  main_height" >
       
-        <div className="w-11/12 sm:w-10/12 mx-auto pt-12 sm:leading-7 leading-6" >
+        <div className="w-11/12 sm:w-10/12 mx-auto pt-12 sm:leading-7 leading-6"  >
 
         
-      <h2 className="font-semibold  tracking-wider flex justify-center text-3xl">ABOUT ME</h2>
+      <h2 className="font-semibold  tracking-wider flex justify-center text-3xl" >ABOUT ME</h2>
        <br />
     <motion.div 
     ref={ref}

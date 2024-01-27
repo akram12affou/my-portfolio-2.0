@@ -15,7 +15,8 @@ body, body * {
 }
 .text_decoration_none{
      text-decoration: none;
-     color: aqua;
+     color: #819070;
+     font-weight: bold;
 }
 
 .my_shadow{
@@ -23,7 +24,8 @@ body, body * {
 }
 
 .tech{
-    color:aqua;
+    color:#819070;
+    font-weight: bold;
     letter-spacing: 1px;
     font-size: 1.01rem;
     
@@ -37,7 +39,8 @@ body, body * {
 }
 
 .bg_color{
-    background: #242021;
+    /* background: #242021; */
+    background: #163020;
 }
 .main_height{
     min-height: calc(100vh - 7rem);
@@ -179,6 +182,5 @@ body, body * {
         width: 80vw;
         height: 40vw;
     }
-    
-   
- }
+
+}

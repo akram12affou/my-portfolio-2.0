@@ -19,7 +19,7 @@ function Cinemagic() {
       offset:['start end','end end']
     });
     const scale = useTransform(scrollYProgress , [0,0.75] , [0.7,1])
-    const opacity = useTransform(scrollYProgress , [0,0.75] , [0.7,1])
+  const opacity = useTransform(scrollYProgress , [0,0.75] , [0.7,1])
   return (
     <motion.div 
     style={{
@@ -49,7 +49,8 @@ function Cinemagic() {
          </div>
          </div>
      </div>
-     <div className=' my_shadow content_carousel'>
+     <div className=' my_shadow lg:w-[45vw]
+    lg:h-[20vw]'>
      <Carousel className='img_dimentions '>
                  <Carousel.Item>
                    <img className='rounded-lg w-full  bg-slate-500 object-cover	img' src={CINEMAGIC2} alt="" />

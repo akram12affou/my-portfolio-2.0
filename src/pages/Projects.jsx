@@ -40,9 +40,9 @@ function Projects() {
      style={{
       scale,
       opacity,
-      
         }} 
         ref={ref}
+        transition={{ bounce: 10 }}
      className="flex flex-col lg:flex-row justify-center  text-white w-10/12 mx-auto items-start gap-2 mt-5">
       <div
    
@@ -76,7 +76,8 @@ function Projects() {
           </div>
           </div>
       </div>
-      <div className=' my_shadow content_carousel'>
+      <div className=' my_shadow lg:w-[45vw]
+    lg:h-[20vw]'>
       <Carousel variant='dark' className='img_dimentions'>
                   <Carousel.Item>
                     <img   className='rounded-lg w-full  bg-slate-500 object-cover img	' src={TRENDIFY2} alt="" />
@@ -92,13 +93,15 @@ function Projects() {
                   </Carousel.Item>                   
       </Carousel>
       </div>
-    </motion.div>
   
-    </div>
-    <Cinemagic/>
+    </motion.div>
+    <Cinemagic/>  
     <Apex/>
     </div>
-    <br />
+  
+   
+    </div>
+   
     </div>
    
   )

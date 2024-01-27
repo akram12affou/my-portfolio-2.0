@@ -1,7 +1,18 @@
-import { motion } from "framer-motion";
+
 import emailjs from "emailjs-com";
-import { useState } from "react";
+import { useState , useRef } from "react";
+import { motion, useScroll , useTransform } from "framer-motion";
+
 function Contact() {
+
+  const ref = useRef(null)
+  const {scrollYProgress} = useScroll({
+    target:ref,
+    offset:['1 0.5','end end']
+  });
+  const left = useTransform(scrollYProgress , [0,0.75] , [0,50])
+  const right = useTransform(scrollYProgress , [0,0.75] , [0,50])
+
   const [email , setEmail] = useState('')
   const [name , setName] = useState('')
   const [message , setMessage] = useState('')
@@ -24,9 +35,7 @@ function Contact() {
   };
   return (
     <div className=" bg_color" id="contact">
-    <motion.div
-    initial={{ y: 22, opacity: 0 }}
-    animate={{ y: 0, opacity: 1 }}
+    <div
   >
     <div className=" text-white main_height flex items-center">
       <div className=" flex justify-center flex-col mx-auto pb-4 gap-2 items-center">
@@ -34,8 +43,16 @@ function Contact() {
              <h2 className="font-semibold lg:text-3xl text-2xl tracking-wider uppercase m-1">contact</h2>
              <span className="Inconsolata routes_color lg:mb-3 text-xs sm:text-sm lg:text-base ">Have a question or want to work together 🤝 ?</span>
        </div>
-       <div className="flex flex-col lg:flex-row lg:gap-4 gap-2 justify-center">
-        <div className="flex flex-col gap-2 items-center">
+       <div 
+       className="flex flex-col lg:flex-row lg:gap-4 gap-2 justify-center">
+        <motion.div 
+        ref={ref}
+          style={{
+            position:"relative",
+            right,
+       }}
+      
+        className="flex flex-col gap-2 items-center">
           <div className="flex  flex-col">
            <label htmlFor="">Name</label>
            <input type="text" placeholder="Name" className="outline-none p-2 sm:w-96 w-64 mx-auto		 text-black rounded-sm	" value={name} onChange={(e) => setName(e.target.value)}/>
@@ -44,13 +61,19 @@ function Contact() {
           <label htmlFor="" >Email</label>
           <input type="text" placeholder="Enter Email" className="outline-none p-2  sm:w-96 w-64 mx-auto		 text-black rounded-sm	" value={email} onChange={(e) => setEmail(e.target.value)}/>
         </div>
-        </div>
+        </motion.div>
         
         
-      <div className="flex flex-col ">
+      <motion.div
+          style={{
+            position:"relative",
+            left
+       }}
+      
+      className="flex flex-col ">
           <label htmlFor="" >Message</label>
           <textarea type="text" className="outline-none sm:w-96 w-full mx-auto rounded-sm	h-36 text-black p-2" placeholder="Your Message"  value={message} onChange={(e) => setMessage(e.target.value)}/>
-      </div>
+      </motion.div>
       </div>
      
       <button className="button-89 mt-3   tracking-wider" onClick={sendEmail}>Send</button>
@@ -63,7 +86,7 @@ function Contact() {
       </div>
       
       </div>
-      </motion.div>
+      </div>
       </div>
     
   )
