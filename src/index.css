@@ -15,7 +15,7 @@ body, body * {
 }
 .text_decoration_none{
      text-decoration: none;
-     color: #819070;
+     color: #d15171;
      font-weight: bold;
 }
 
@@ -24,7 +24,7 @@ body, body * {
 }
 
 .tech{
-    color:#819070;
+    color:#d15171;
     font-weight: bold;
     letter-spacing: 1px;
     font-size: 1.01rem;
@@ -39,8 +39,8 @@ body, body * {
 }
 
 .bg_color{
-    /* background: #242021; */
-    background: #163020;
+    background: #242021;
+    
 }
 .main_height{
     min-height: calc(100vh - 7rem);

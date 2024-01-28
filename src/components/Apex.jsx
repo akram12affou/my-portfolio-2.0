@@ -23,8 +23,8 @@ function Apex() {
         <div className="flex items-center gap-3 ">
         <a href="https://deft-gumption-340eb5.netlify.app/" target="_blank" className='text_decoration text-white'><h3 className="font-semibold tracking-wider text-2xl hover:underline cursor-pointer">APEX</h3></a>  
           <div className='flex  items-center gap-3 mb-2 sm:hidden'>
-          <a href="https://github.com/akram12affou/coingecko-app" className='text-white' target="_blank"> <LuGithub className=" cursor-pointer  text-md hover:text-sky-300 trans hover:scale-105" /></a> 
-          <a href="https://deft-gumption-340eb5.netlify.app/" className='text-white' target="_blank"><FaEye className=" cursor-pointer  text-md hover:text-sky-300 trans hover:scale-105" /></a>  
+          <a href="https://github.com/akram12affou/coingecko-app" className='text-white' target="_blank"> <LuGithub className=" cursor-pointer  text-md hover:text-red-300 trans hover:scale-105" /></a> 
+          <a href="https://deft-gumption-340eb5.netlify.app/" className='text-white' target="_blank"><FaEye className=" cursor-pointer  text-md hover:text-red-300 trans hover:scale-105" /></a>  
 
           </div>
           
@@ -32,10 +32,10 @@ function Apex() {
         <div className="flex flex-col gap-3">
          <span className="text-base tracking-wide leading-7">APEX is built with <span className='tech '>React</span> , <span className='tech'>TypeScript</span> , <span className='tech'>Redux</span> , <span className='tech'>Sass</span>, <span className='tech'>Material Ui</span>   brings you up-to-date information on every coin through an API, complete with detailed charts using <span className='tech'>Chart.js</span> . You can also track your favorite coins through authentication to make informed investment decisions with <span className='tech'> Firebase </span>.</span> 
           <div className="hidden sm:flex  justify-evenly">
-            <a href="https://github.com/akram12affou/coingecko-app" target="_blank" className="flex items-center gap-1 Inconsolata routes_color  font-semibold cursor-pointer hover:text-sky-300 hover:tracking-wide trans w-fit text_decoration_none">
+            <a href="https://github.com/akram12affou/coingecko-app" target="_blank" className="flex items-center gap-1 Inconsolata routes_color  font-semibold cursor-pointer hover:text-red-300 hover:tracking-wide trans w-fit text_decoration_none">
              <LuGithub className="text-white cursor-pointer text-lg " /> Github 
             </a>
-            <a href="https://deft-gumption-340eb5.netlify.app/" target="_blank" className="flex trans items-center gap-1 Inconsolata routes_color  font-semibold cursor-pointer  hover:tracking-wide hover:text-sky-300 w-fit text_decoration_none">
+            <a href="https://deft-gumption-340eb5.netlify.app/" target="_blank" className="flex trans items-center gap-1 Inconsolata routes_color  font-semibold cursor-pointer  hover:tracking-wide hover:text-red-300 w-fit text_decoration_none">
             <FaEye className="text-white cursor-pointer text-lg" /> Preview 
             </a>
 

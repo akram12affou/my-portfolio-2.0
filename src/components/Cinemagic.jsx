@@ -31,8 +31,8 @@ function Cinemagic() {
        <div className="flex items-center gap-3 ">
        <a href="https://cinemagic-client.vercel.app" className='text_decoration text-white' target="_blank"><h3 className="font-semibold tracking-wider text-2xl hover:underline cursor-pointer">CINEMAGIC</h3></a> 
          <div className='flex  items-center gap-3 mb-2 sm:hidden'>
-         <a href="https://github.com/akram12affou/cinemagic" className='text-white' target="_blank"> <LuGithub className=" cursor-pointer  text-md hover:text-sky-300 trans hover:scale-105" href="https://github.com/akram12affou/cinemagic"/></a>
-         <a href="https://cinemagic-client.vercel.app" className='text-white ' target="_blank"><FaEye className=" cursor-pointer  text-md hover:text-sky-300 trans hover:scale-105" /></a>
+         <a href="https://github.com/akram12affou/cinemagic" className='text-white' target="_blank"> <LuGithub className=" cursor-pointer  text-md hover:text-red-300 trans hover:scale-105" href="https://github.com/akram12affou/cinemagic"/></a>
+         <a href="https://cinemagic-client.vercel.app" className='text-white ' target="_blank"><FaEye className=" cursor-pointer  text-md hover:text-red-300 trans hover:scale-105" /></a>
  
          </div>
        </div>
@@ -40,10 +40,10 @@ function Cinemagic() {
         <span className="text-base tracking-wide leading-7">
          Cinemagic, my movie app, is a cool creation using the <span className="tech">MERN stack</span>  , <span className="tech">Tailwind</span> ,<span className="tech">TypeScript</span> , and tools like <span className="tech">Toastify</span> . It's designed for quick movie and actor details informations ,you can also search for films , with user authentication for personalized features like storing watched lists .</span> 
          <div className="hidden sm:flex  justify-evenly">
-           <a href="https://github.com/akram12affou/cinemagic" target="_blank" className="flex items-center gap-1 Inconsolata routes_color  font-semibold cursor-pointer hover:text-sky-300 hover:tracking-wide trans w-fit text_decoration_none">
+           <a href="https://github.com/akram12affou/cinemagic" target="_blank" className="flex items-center gap-1 Inconsolata routes_color  font-semibold cursor-pointer hover:text-red-300 hover:tracking-wide trans w-fit text_decoration_none">
             <LuGithub className="text-white cursor-pointer text-lg " /> Github 
            </a>
-           <a href="https://cinemagic-client.vercel.app" target="_blank" className="flex trans items-center gap-1 Inconsolata routes_color  font-semibold cursor-pointer  hover:tracking-wide hover:text-sky-300 w-fit text_decoration_none">
+           <a href="https://cinemagic-client.vercel.app" target="_blank" className="flex trans items-center gap-1 Inconsolata routes_color  font-semibold cursor-pointer  hover:tracking-wide hover:text-red-300 w-fit text_decoration_none">
            <FaEye className="text-white cursor-pointer text-lg" /> Preview 
            </a>
          </div>
