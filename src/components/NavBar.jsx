@@ -52,10 +52,10 @@ function NavBar() {
                 open={Boolean(anchorEl)}
                 onClose={handleClose}
               >
-                <MenuItem onClick={handleClose} ><span className="routes_color  hover:text-black  cursor-pointer trans sm:text-lg text-sm " onClick={() => navigate('/')}>Home</span> </MenuItem>
-                <MenuItem onClick={handleClose} ><span className="routes_color  hover:text-black  cursor-pointer trans sm:text-lg text-sm" onClick={() => navigate('/about')}>About</span> </MenuItem>
-                <MenuItem onClick={handleClose} ><span className="routes_color  hover:text-black  cursor-pointer trans sm:text-lg text-sm" onClick={() => navigate('/projects')}>Projects</span> </MenuItem>
-                <MenuItem onClick={handleClose} ><span className="routes_color  hover:text-black  cursor-pointer trans sm:text-lg text-sm" onClick={() => navigate('/contact')}>Contact</span></MenuItem>
+                <MenuItem onClick={handleClose} ><a  href="#" className="routes_color  hover:text-black  cursor-pointer trans sm:text-lg text-sm  text_decoration_none" >Home</a> </MenuItem>
+                <MenuItem onClick={handleClose} ><a href="#about" className="routes_color  hover:text-black  cursor-pointer trans sm:text-lg text-sm text_decoration_none" >About</a> </MenuItem>
+                <MenuItem onClick={handleClose} ><a href="#projects" className="routes_color  hover:text-black  cursor-pointer trans sm:text-lg text-sm text_decoration_none" >Projects</a> </MenuItem>
+                <MenuItem onClick={handleClose} ><a href="#contact" className="routes_color  hover:text-black  cursor-pointer trans sm:text-lg text-sm text_decoration_none">Contact</a></MenuItem>
               </Menu>
         </div>
        

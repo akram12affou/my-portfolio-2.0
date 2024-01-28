@@ -11,8 +11,6 @@ import { useEffect } from "react";
 function Home() {
   const navigate = useNavigate()
   const mainControls = useAnimation()
- 
- 
   
   return (
     <div className="bg_color">

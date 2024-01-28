@@ -85,9 +85,7 @@ body, body * {
 .home_h2{
     font-size: calc(1.5rem + 2.9vw);
 }
-.home_h3{
-    font-size:  calc(.3rem + 1.2vw);;
-}
+
 .footer_bg{
     background: rgb(25,25,25)
 }
@@ -143,6 +141,9 @@ body, body * {
     width: 100px;
     background: rgb(219, 76, 76);
   }
+  .home_h3{
+    font-size:  calc(.3rem + 1.2vw);;
+   }
 @media only screen and (max-width: 500px) {
    .home_h2{
        font-size: calc(1.7rem + 1vw);
@@ -151,7 +152,7 @@ body, body * {
         font-size: 13px;
     }
     .tech{
-        color:aqua;
+        color:#d15171;
         letter-spacing: 1px;
         font-size: 0.9rem;
     }
@@ -165,6 +166,9 @@ body, body * {
     
 }
 @media only screen and (max-width: 1024px) {
+    .home_h3{
+        font-size:  calc(.35rem + 1.2vw);;
+    }
     .img_dimentions{
         display: flex;
         justify-content: center;
